@@ -6,7 +6,13 @@ namespace TLAP_3_4
     {
         static void Main(string[] args)
         {
+            MainOutput();
+        }
+
+        private static void MainOutput()
+        {
             var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ";
+            var code = "QWERTYUIOPÅÆØLKJHGFDSAZXCVBNM";
             Console.WriteLine(alphabet);
         }
     }
