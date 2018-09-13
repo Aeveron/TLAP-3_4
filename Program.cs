@@ -8,7 +8,6 @@ namespace TLAP_3_4
         {
             var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ";
             Console.WriteLine(alphabet);
-            Console.Write(alphabet);
         }
     }
 }
